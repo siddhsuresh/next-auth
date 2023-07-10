@@ -34,7 +34,10 @@
     "./next": "./next/index.js",
     "./middleware": "./middleware.js",
     "./client/_utils": "./client/_utils.js",
-    "./providers/*": "./providers/*.js"
+    "./providers/*": "./providers/*.js",
+    "./core/init": "./core/init.js",
+    "./core/lib/oauth/authorization-url": "./core/lib/oauth/authorization-url.js",
+    "./core/lib/oauth/callback": "./core/lib/oauth/callback.js"
   },
   "scripts": {
     "build": "pnpm clean && pnpm build:js && pnpm build:css",
