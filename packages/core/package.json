@@ -57,6 +57,18 @@
     },
     "./types": {
       "types": "./types.d.ts"
+    },
+    "./lib/oauth/authorization-url": {
+      "types": "./lib/oauth/authorization-url.d.ts",
+      "import": "./lib/oauth/authorization-url.js"
+    },
+    "./lib/oauth/callback": {
+      "types": "./lib/oauth/callback.d.ts",
+      "import": "./lib/oauth/callback.js"
+    },
+    "./lib/oauth/init": {
+      "types": "./lib/oauth/init.d.ts",
+      "import": "./lib/oauth/init.js"
     }
   },
   "license": "ISC",
