@@ -58,6 +58,14 @@
     "./types": {
       "types": "./types.d.ts"
     },
+    "./lib/init": {
+      "types": "./lib/init.d.ts",
+      "import": "./lib/init.js"
+    },
+    "./lib/email/signin": {
+      "types": "./lib/email/signin.d.ts",
+      "import": "./lib/email/signin.js"
+    },
     "./lib/oauth/authorization-url": {
       "types": "./lib/oauth/authorization-url.d.ts",
       "import": "./lib/oauth/authorization-url.js"
@@ -66,9 +74,17 @@
       "types": "./lib/oauth/callback.d.ts",
       "import": "./lib/oauth/callback.js"
     },
-    "./lib/oauth/init": {
-      "types": "./lib/oauth/init.d.ts",
-      "import": "./lib/oauth/init.js"
+    "./lib/oauth/handle-state": {
+      "types": "./lib/oauth/handle-state.d.ts",
+      "import": "./lib/oauth/handle-state.js"
+    },
+    "./lib/assert": {
+      "types": "./lib/assert.d.ts",
+      "import": "./lib/assert.js"
+    },
+    "./lib/web": {
+      "types": "./lib/web.d.ts",
+      "import": "./lib/web.js"
     }
   },
   "license": "ISC",
